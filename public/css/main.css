@@ -82,6 +82,10 @@ h1 {
     
 }
 
-.contact #form-group #btn-send {
+.contact #btn-send {
     color: rgb(29, 19, 19);
+    margin-top: 42px;
+    margin-left: 132px;
+    width: 200px;
+    padding: 5px;
 }
