@@ -1,13 +1,13 @@
-*{
+* {
     color: #fff;
 }
 
-body{
+body {
     background: rgb(54, 46, 46);
     background-image: url('/img/background_Umb.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 
 header {
@@ -23,6 +23,36 @@ header img {
     left: 70vh;
 
 }
+
+.bg-icon .img-roll {
+    display: flex;
+    margin-top: -800px;
+    margin-left: 50px;
+    animation: roll 8s infinite linear;
+}
+
+.bg-icon .zomb {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    transform: rotateY(180deg);
+    width: 110px;
+}
+
+@keyframes roll {
+    /* transform:  rotate(45deg); */
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+
+    }
+
+}
+
 
 .nav-bar {
     display: block;
@@ -40,6 +70,7 @@ header img {
 .nav-bar li a {
     text-decoration: none;
 }
+
 .nav-bar li a:visited {
     text-decoration: none;
     color: #fff;
@@ -61,7 +92,7 @@ h1 {
 }
 
 
-.contact #form-group{
+.contact #form-group {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -74,12 +105,13 @@ h1 {
     display: flex;
     align-items: center;
 }
+
 .contact #form-group input {
     padding: 10px;
     width: 320px;
-    color:rgb(29, 19, 19);
+    color: rgb(29, 19, 19);
     text-transform: uppercase;
-    
+
 }
 
 .contact #btn-send {
