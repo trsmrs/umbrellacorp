@@ -1,6 +1,6 @@
 * {
     color: #fff;
-
+    box-sizing: border-box;
 }
 
 body {
@@ -181,3 +181,25 @@ header img {
     border-radius: 0px;
     margin-left: 50%;
 }
+
+
+
+.span-tip {
+    display: none;
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    margin: 30px;
+    overflow: hidden;
+    background: #9bf0bd;
+    color: black;
+    height: auto;
+    width: 244px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow:  0 0 8px rgba(56,56,56,0.8);
+}
+
+
+
+
