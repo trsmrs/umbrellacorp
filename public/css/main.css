@@ -1,15 +1,17 @@
 * {
     color: #fff;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    position: static;
+    /* position: static; */
     background: rgb(54, 46, 46);
     background-image: url('/img/background_Umb.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 100vw; */
+    background-attachment: fixed;
 
 
 
@@ -117,26 +119,32 @@ header img {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     color: #fff;
-    width: 465px;
+    width: 668px;
     margin-top: -556px;
     margin-left: 391px;
     
 
 }
 
-.contact {
+.content {
     display: flex;
-    width: 670px;
-    margin-top: 3px;
-    margin-left: 500px;
+    flex-wrap: wrap;
+}
 
+.contact {
+    position: relative;
+    width: 420px;
+    margin-top: 5vh;
+    margin-left: 4vw;
 }
 
 .contact #form-contact {
+    
     width: 424px;
-    margin-top: 14vh;
-    margin-left: -68vh;
+    /* margin-top: 14vh;
+    margin-left: -68vh; */
 
 }
 
@@ -166,7 +174,7 @@ header img {
 .contact #btn-send {
     color: rgb(29, 19, 19);
     margin-top: 42px;
-    margin-left: 132px;
+    margin-left: 144px;
     width: 200px;
     padding: 5px;
 }
