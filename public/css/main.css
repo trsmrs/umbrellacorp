@@ -1,40 +1,74 @@
 * {
     color: #fff;
+
 }
 
 body {
+    position: static;
     background: rgb(54, 46, 46);
     background-image: url('/img/background_Umb.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    /* width: 100vw; */
+
+
 
 }
 
 header {
-    /* background: rgb(80, 3, 3);
-    background: -moz-linear-gradient(180deg, rgba(80, 3, 3, 1) 0%, rgba(73, 17, 6, 1) 35%, rgba(102, 20, 20, 1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(80, 3, 3, 1) 0%, rgba(73, 17, 6, 1) 35%, rgba(102, 20, 20, 1) 100%);
-    background: linear-gradient(180deg, rgba(80, 3, 3, 1) 0%, rgba(73, 17, 6, 1) 35%, rgba(102, 20, 20, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#500303", endColorstr="#661414", GradientType=1); */
+    width: 100vw;
+    min-width: 368px;
+
 }
 
 header img {
-    position: relative;
-    left: 70vh;
-
+    display: flex;
+    width: 100vh;
+    margin-top: 10px;
+    margin-left: 25vw;
 }
 
-.bg-icon .img-roll {
-    display: flex;
-    margin-top: -800px;
-    margin-left: 50px;
+.bg-icon {
+    width: 118px;
+    height: 118px;
+    margin-top: -77px;
+    margin-left: 108px;
+}
+
+.img-roll {
+    width: 128px;
+    margin: 0;
     animation: roll 8s infinite linear;
 }
 
-.bg-icon .zomb {
-    position: absolute;
-    top: 15px;
-    left: 50px;
+
+.div-par {
+    display: inline;
+
+
+}
+
+.div-par .article-home {
+    width: 64vw;
+    margin-left: 395px;
+
+}
+
+
+.div-par .article-home p {
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 23px;
+}
+
+.zomb {
+
+    margin-top: 37vh;
+    margin-left: 85vw;
+
+}
+
+.zomb .zomb-img {
     transform: rotateY(180deg);
     width: 110px;
 }
@@ -55,10 +89,15 @@ header img {
 
 
 .nav-bar {
-    display: block;
+    display: flex;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 16px;
 }
 
 .nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -76,19 +115,29 @@ header img {
     color: #fff;
 }
 
-h1 {
+.container {
+    display: flex;
     color: #fff;
+    width: 465px;
+    margin-top: -556px;
+    margin-left: 391px;
+    
+
 }
 
 .contact {
     display: flex;
-    margin-top: -670px;
+    width: 670px;
+    margin-top: 3px;
     margin-left: 500px;
+
 }
 
 .contact #form-contact {
+    width: 424px;
     margin-top: 14vh;
     margin-left: -68vh;
+
 }
 
 
@@ -120,4 +169,15 @@ h1 {
     margin-left: 132px;
     width: 200px;
     padding: 5px;
+}
+
+
+
+#btn-leave {
+    color: black;
+    text-decoration: none;
+    background: #9b8a82;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-left: 50%;
 }

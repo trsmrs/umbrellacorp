@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
- <%- include('partials/head.ejs')%>
-<body>
-    <%- include('partials/header.ejs')%>
+<%- include('partials/head.ejs')%>
+
+    <body>
+        <%- include('partials/header.ejs')%>
 
 
-    <section class="container">
-        <%- include('partials/navbar.ejs') %> 
+            <%- include('partials/navbar.ejs') %>
+                <section class="container">
+                    <article class="content">
+                        <h1>Home</h1>
+                    </article>
+                </section>
 
-        <article class="content">
-            <h1>Home</h1>
-        </article>
-    </section>
+                    <div class="div-par">
+                        <article class="article-home">
+                           <p>Umbrella Corporation (também conhecida como Umbrella, Inc., Umbrella Pharmaceutical Inc. ou Umbrella Corp.) (アンブレラ・コーポレーション) foi uma empresa fundada com o objetivo de criar armas biológicas.
+                           A Umbrella produz produtos farmacêuticos, Anti-vírus dentre outras.</p>
+                           
+                           <p>
+                            A Umbrella foi fundada por James Marcus, juntamente com Oswell E. Spencer e e Edward Ashford, ambos os últimos respeitados nobres ingleses.
+                           </p>
+                        </article>
+                    </div>
+
+                
+
+                
 
 
-    <section class="bg-icon">
-        <div>
-            <img class="zomb" src="/img/zombie.gif">
-        </div>
-        <div>
-            <img class="img-roll" src="/img/umbrella_icon_roll.ico">
-        </div>
-    </section>
 
+                <%- include('partials/footer.ejs')%>
+                    <!-- <%- include('partials/foot.ejs')%> -->
+    </body>
 
-
-    <%- include('partials/footer.ejs')%>
-    <%- include('partials/foot.ejs')%>
-</body>
 </html>
